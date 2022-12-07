@@ -1,0 +1,22 @@
+server:
+  port: 8080
+
+
+spring:
+  data:
+    mongodb:
+      authentication-database: admin
+      host: 127.0.0.1
+      port: 27017
+      username: chunchun
+      password: chunchun
+      database: movie
+
+  http:
+    encoding:
+      enabled: true
+      charset: UTF-8
+      force: true
+
+  mvc:
+    static-path-pattern: /**
